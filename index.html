@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Laser Engraving Directory | Engravers & Equipment Distributors</title>
+    <meta name="description" content="Searchable directory of USA laser engraving companies and laser equipment / consumable distributors, organized state by state.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body data-data-file="data/directory-data.json">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">🇺🇸 USA Laser Engraving Directory</h1>
+                <p class="tagline">UK dataset • searchable directory</p>
+                <nav class="header-nav">
+                    <a href="index.html" class="nav-link active">UK</a>
+                    <a href="nordics.html" class="nav-link">Nordics</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="search-section">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search by company name, address, or keyword..." autocomplete="off">
+                    <button id="clearSearch" class="clear-btn" style="display: none;">✕</button>
+                </div>
+                
+                <div class="filters">
+                    <div class="filter-group" style="flex: 2; min-width: 280px;">
+                        <label>Categories</label>
+                        <div id="categoryCheckboxes" class="category-checkboxes">
+                            <!-- Populated by JS -->
+                        </div>
+                        <div class="filter-actions">
+                            <button id="selectAllCats" class="filter-action-btn">Select All</button>
+                            <button id="clearCats" class="filter-action-btn">Clear</button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <label for="countyFilter">State</label>
+                        <select id="countyFilter">
+                            <option value="">All Counties</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="sortBy">Sort By</label>
+                        <select id="sortBy">
+                            <option value="name-asc">Name A-Z</option>
+                            <option value="name-desc">Name Z-A</option>
+                            <option value="county-asc">State A-Z</option>
+                            <option value="county-desc">State Z-A</option>
+                            <option value="category-asc">Category A-Z</option>
+                        </select>
+                    </div>
+                    <div class="filter-group checkbox-group">
+                        <label for="plaquesOnly">
+                            <input type="checkbox" id="plaquesOnly">
+                            <span>🏷️ Distributors only</span>
+                        </label>
+                    </div>
+                    <div class="filter-group checkbox-group">
+                        <label for="hasEmail">
+                            <input type="checkbox" id="hasEmail">
+                            <span>📧 Has email</span>
+                        </label>
+                    </div>
+                    <div class="filter-group checkbox-group">
+                        <label for="wayfindingOnly">
+                            <input type="checkbox" id="wayfindingOnly">
+                            <span>✉️ Has email</span>
+                        </label>
+                    </div>
+                    <button id="resetFilters" class="reset-btn">Reset</button>
+                    <div class="filter-group" style="margin-left: auto;">
+                        <label>Selection</label>
+                        <div class="selection-actions">
+                            <button id="selectAllBtn" class="action-btn">Select All</button>
+                            <button id="deselectAllBtn" class="action-btn">Deselect All</button>
+                            <button id="downloadCsvBtn" class="action-btn primary" disabled>Download CSV (<span id="selectedCount">0</span>)</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <div class="results-header">
+                    <p class="results-count"><span id="resultsCount">0</span> businesses found</p>
+                    <div class="view-toggle">
+                        <button id="gridView" class="view-btn active" title="Grid View">▦</button>
+                        <button id="listView" class="view-btn" title="List View">☰</button>
+                        <button id="mapView" class="view-btn" title="Map View">🗺</button>
+                    </div>
+                </div>
+                
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading directory...</p>
+                </div>
+                
+                <div id="resultsGrid" class="results-grid"></div>
+                <div id="resultsList" class="results-list" style="display: none;"></div>
+                <div id="mapContainer" class="map-container" style="display: none;">
+                    <div id="map"></div>
+                </div>
+                
+                <div id="noResults" class="no-results" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                        <path d="M8 8l6 6M14 8l-6 6"></path>
+                    </svg>
+                    <h3>No businesses found</h3>
+                    <p>Try adjusting your search or filters</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>USA Laser Engraving Directory • Built state by state</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
