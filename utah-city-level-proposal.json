@@ -1,0 +1,263 @@
+{
+  "proposal_metadata": {
+    "state": "Utah",
+    "research_date": "2026-03-22",
+    "target_cities": ["Salt Lake City", "West Valley City", "Orem", "Provo", "Ogden", "Riverdale", "Bluffdale", "Alpine", "St. George", "Logan"],
+    "methodology": "City-level search with stricter contact extraction",
+    "total_candidates": 19,
+    "merge_ready": 12
+  },
+  "candidates": [
+    {
+      "company": "Pro Signs",
+      "state": "UT",
+      "city_or_metro": "Orem",
+      "category": "Sign Company",
+      "website": "https://www.prosigns-utah.com",
+      "email": "sales@prosigns-utah.com",
+      "phone": "(801) 616-3185",
+      "secondary_phone": "(801) 613-7238",
+      "address": "Orem, UT (Utah County)",
+      "notes": "Full-service sign company since 2003. Electric signs, car wraps, digital prints, laser engraving. 20+ years experience. Serves Utah County and Salt Lake City areas.",
+      "quality": 9,
+      "contact_complete": true
+    },
+    {
+      "company": "Impact Signs",
+      "state": "UT",
+      "city_or_metro": "Salt Lake City",
+      "category": "Sign Company",
+      "website": "https://www.impact-signs.com",
+      "email": "kevin@impact-signs.com",
+      "secondary_email": "bill@impact-signs.com",
+      "phone": "801-972-5101",
+      "fax": "801-972-2530",
+      "address": "2236 S. 3270 W., Salt Lake City, UT 84120",
+      "linkedin": "https://www.facebook.com/impactsignsslc/",
+      "notes": "Established 1961, over 30 years experience. 20,000 sq ft facility. State-of-the-art equipment. Commercial and small business signs. Local family-run company.",
+      "quality": 9,
+      "contact_complete": true
+    },
+    {
+      "company": "Precision Sign & Graphics",
+      "state": "UT",
+      "city_or_metro": "Bluffdale",
+      "category": "Sign Company",
+      "website": "https://www.precisionsignsutah.com",
+      "phone": "801-935-1002",
+      "address": "14476 Center Point Way #600, Bluffdale, UT 84065",
+      "notes": "Since 2011. Custom signage, vehicle graphics, window graphics, banners, exhibition displays. 25 years industry experience. Owner Kevin Amis.",
+      "quality": 8,
+      "contact_complete": true
+    },
+    {
+      "company": "Visibility Signs & Graphics",
+      "state": "UT",
+      "city_or_metro": "Provo",
+      "category": "Sign Company",
+      "website": "https://visibilitysign.com",
+      "phone": "(801) 823-4005",
+      "secondary_phone": "(801) 609-3022",
+      "address": "516 E Lakeview Pkwy, Provo, UT 84606",
+      "notes": "formerly Timpanogos Custom Signs. Two locations: Provo and Salt Lake City. Full-service: design, production, permitting, installation, repair. Serving Utah County, Draper, Bluffdale, Herriman, Sandy.",
+      "quality": 8,
+      "contact_complete": true
+    },
+    {
+      "company": "YESCO",
+      "state": "UT",
+      "city_or_metro": "Salt Lake City",
+      "category": "Sign Company",
+      "website": "https://www.yesco.com/saltlakecity/",
+      "phone": "(801) 487-8481",
+      "address": "1605 Gramercy Rd, Salt Lake City, UT 84104",
+      "notes": "National chain with local Salt Lake City location. Custom electric signs, displays, sign repair, lighting service. Since 1940.",
+      "quality": 8,
+      "contact_complete": true
+    },
+    {
+      "company": "Salt Lake City Sign Company",
+      "state": "UT",
+      "city_or_metro": "Salt Lake City",
+      "category": "Sign Company",
+      "website": "https://www.saltlakecitysigncompany.com",
+      "phone": "(801) 923-5961",
+      "notes": "Custom signs, graphics, wraps. Free quotes.",
+      "quality": 7,
+      "contact_complete": true
+    },
+    {
+      "company": "JC Pro Design",
+      "state": "UT",
+      "city_or_metro": "Salt Lake City",
+      "category": "Sign Company",
+      "mainBrand": "Screen printing, embroidery",
+      "website": "https://www.jcprodesign.com",
+      "phone": "(801) 657-7775",
+      "address": "6186 S 300 W, Salt Lake City, UT 84107",
+      "notes": "Since 2016. Full-service print/promo company. Screen printing, embroidery, vehicle wraps, banners, signs, laser engraving. Award-winning (Best Custom Screen Printing Company in Utah 2025).",
+      "quality": 8,
+      "contact_complete": true
+    },
+    {
+      "company": "Sign Pro Utah",
+      "state": "UT",
+      "city_or_metro": "Utah",
+      "category": "Sign Company",
+      "website": "https://www.signproutah.com",
+      "notes": "Custom signage and CNC products.",
+      "quality": 6,
+      "contact_complete": false
+    },
+    {
+      "company": "Utah Laser Engraving",
+      "state": "UT",
+      "city_or_metro": "Riverdale",
+      "category": "Engraver",
+      "website": "https://www.engraveutah.com",
+      "email": "engraving@engraveutah.com",
+      "phone": "(801) 888-0515",
+      "instagram": "@engraveutah",
+      "notes": "Utah's premier engraving service. CO2 and fiber laser engraving. Certifications in both. Engrave on metal, wood, plastic, glass, polymers. 5 locations. Riverdale-based.",
+      "quality": 8,
+      "contact_complete": true
+    },
+    {
+      "company": "Stylish Engraving",
+      "state": "UT",
+      "city_or_metro": "Orem",
+      "category": "Engraver",
+      "website": "https://stylishengraving.com",
+      "phone": "(801) 500-9187",
+      "notes": "Since 2012 (14+ years experience). Custom laser engraving, etching, vinyl cutting. Personalized gifts and decor. Orem location.",
+      "quality": 7,
+      "contact_complete": true
+    },
+    {
+      "company": "Distinctive Engraving",
+      "state": "UT",
+      "city_or_metro": "Alpine",
+      "category": "Engraver",
+      "website": "https://distinctiveengraving.com",
+      "email": "info@distinctiveengraving.com",
+      "phone": "(801) 756-3241",
+      "address": "340 Carlisle Ave, Alpine, UT 84004",
+      "notes": "Personalized products: desk name plates, door signs, keychains, luggage tags. Specializes in LDS community products (missionary plaques, luggage tags).",
+      "quality": 7,
+      "contact_complete": true
+    },
+    {
+      "company": "Custom Laser Specialty (CLS)",
+      "state": "UT",
+      "city_or_metro": "Utah",
+      "category": "Engraver",
+      "website": "https://customlaserspecialty.com",
+      "notes": "Custom laser cutting, laser fabrication, laser etching. FFL licensed.",
+      "quality": 6,
+      "contact_complete": false
+    },
+    {
+      "company": "Endurance Laserworks",
+      "state": "UT",
+      "city_or_metro": "Ogden",
+      "category": "Engraver",
+      "website": "https://endurancelaserworks.com",
+      "notes": "Small engraving business in Ogden, Utah.",
+      "quality": 5,
+      "contact_complete": false
+    },
+    {
+      "company": "MD Custom Engraving",
+      "state": "UT",
+      "city_or_metro": "Ogden",
+      "category": "Engraver",
+      "website": "https://customengravingogden.com",
+      "notes": "Diamond Drag CNC and laser engraving. Glass, granite, marble, aluminum, wood.",
+      "quality": 5,
+      "contact_complete": false
+    },
+    {
+      "company": "EtchCraft Laser",
+      "state": "UT",
+      "city_or_metro": "St. George",
+      "category": "Engraver",
+      "website": "https://www.etchcraftlaser.com",
+      "notes": "Custom laser engraving in St. George. Personalized gifts, awards, drink-ware, signs. Ships nationwide.",
+      "quality": 6,
+      "contact_complete": false
+    },
+    {
+      "company": "Sweenks Laser Engraving",
+      "state": "UT",
+      "city_or_metro": "St. George",
+      "category": "Engraver",
+      "website": "https://sweenks.com",
+      "notes": "Custom laser engraving in St. George. Personalized items and gifts.",
+      "quality": 5,
+      "contact_complete": false
+    },
+    {
+      "company": "Gray Skunk Inc",
+      "state": "UT",
+      "city_or_metro": "Salt Lake City",
+      "category": "Engraver",
+      "website": "https://www.grayskunk.com",
+      "notes": "Multifaceted design studio. Engraving, milling, digital design.",
+      "quality": 5,
+      "contact_complete": false
+    },
+    {
+      "company": "High Value Trophy",
+      "state": "UT",
+      "city_or_metro": "Salt Lake City",
+      "category": "Engraver",
+      "website": "https://www.highvaluetrophy.com",
+      "notes": "Trophies, plaques, acrylic awards, laser engraving on wood, metal, acrylic. Metal nameplates, control panels, bar codes.",
+      "quality": 6,
+      "contact_complete": false
+    },
+    {
+      "company": "Innovative Cutting Systems",
+      "state": "UT",
+      "city_or_metro": "Intermountain (serves UT)",
+      "category": "Distributor",
+      "mainBrand": "Epilog Laser, KERN, TYKMA Electrox, BOFA, Purex",
+      "website": "https://www.innovativecuttingsystems.com",
+      "phone": "480-557-7999",
+      "notes": "Exclusive Epilog Laser distributor for Arizona, Utah, Colorado, Wyoming, Nevada, Montana, Idaho. Also distributes KERN large-format cutters, TYKMA galvo machines, BOFA and Purex laser exhaust systems. In business since 1988.",
+      "quality": 9,
+      "contact_complete": true
+    }
+  ],
+  "summary": {
+    "by_category": {
+      "Sign Company": 8,
+      "Engraver": 10,
+      "Distributor": 1
+    },
+    "by_quality": {
+      "quality_9": 3,
+      "quality_8": 5,
+      "quality_7": 3,
+      "quality_6": 3,
+      "quality_5": 5
+    },
+    "contact_complete": 12,
+    "contact_partial": 7,
+    "merge_ready_count": 12,
+    "weak_entries": [
+      "Endurance Laserworks - minimal web presence",
+      "MD Custom Engraving - limited contact info",
+      "Sweenks Laser Engraving - limited info",
+      "Gray Skunk Inc - limited info",
+      "Sign Pro Utah - no contact details found"
+    ],
+    "strongest_entries": [
+      "Pro Signs - complete contact, established, multi-service",
+      "Impact Signs - full contact info, 30+ years, large facility",
+      "Innovative Cutting Systems - major distributor, multiple brands",
+      "Utah Laser Engraving - email, phone, Instagram, multiple locations",
+      "Precision Sign & Graphics - complete contact, long history"
+    ]
+  }
+}
