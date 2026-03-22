@@ -1,0 +1,199 @@
+{
+  "proposal": {
+    "title": "CA-TX Sign Companies Proposal",
+    "description": "Separate proposal set for USA laser directory - Sign Company category",
+    "scope": {
+      "states": ["California", "Texas"],
+      "category": "Sign Company"
+    },
+    "summary": {
+      "california_count": 8,
+      "texas_count": 6,
+      "total_count": 14
+    },
+    "companies": [
+      {
+        "company": "Sign Design",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://www.signdesignoc.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Orange County, CA",
+        "notes": "Full-service custom sign printing and production. Specializes in exterior/interior signs, vehicle graphics, wide-format digital printing. Serves Southern California.",
+        "quality": "high"
+      },
+      {
+        "company": "RMS Laser Group",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://rmslaser-group.com",
+        "email": "Sales@rmslaser-group.com",
+        "linkedin": null,
+        "instagram": null,
+        "phone": "888.767.5273",
+        "address": "El Cajon, CA (San Diego area)",
+        "notes": "25+ years experience. Specializes in laser engraving, cutting, UV printing, CNC routing, ADA-compliant Braille signs. Works with wood, acrylic, leather, metal, Mylar, foam.",
+        "quality": "high"
+      },
+      {
+        "company": "Front Signs",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://www.frontsigns.com",
+        "email": "info@frontsigns.com",
+        "linkedin": null,
+        "instagram": "frontsigns",
+        "phone": "(844) 833-1188",
+        "address": "3520 Valhalla Dr, Burbank, CA 91505",
+        "notes": "Full-cycle sign making company. Laser cutting up to 2m X 4m, accuracy ±0.002. CAD services, cuts stainless steel, aluminum, titanium, carbon steel, brass.",
+        "quality": "high"
+      },
+      {
+        "company": "LA Laser Cutting",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://lalasercutting.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Brewery Art Complex, Downtown LA, CA",
+        "notes": "Studio environment for artists, architects, designers. Founder former Art Director of LA Times. Clients include Warner Brothers, Red Bull, Disney, Nike. Rush orders accommodated.",
+        "quality": "high"
+      },
+      {
+        "company": "Lazer Image Inc",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://www.lazerimageinc.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Inglewood, CA",
+        "notes": "Full service digital printing & custom fabrication company. Specializes in acrylic fabrication, oversized laser cutting & engraving, direct printing on substrates.",
+        "quality": "medium"
+      },
+      {
+        "company": "American Signs Inc",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://americansignsinc.com/services/laser-cutting/",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Los Angeles, CA",
+        "notes": "Laser cutting for metals (stainless steel, aluminum, brass, copper, titanium, corten), plastics (acrylic, polycarbonate, PETG, Delrin), wood (plywood, MDF, solid wood), glass/ceramics.",
+        "quality": "medium"
+      },
+      {
+        "company": "American Laser Co",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://www.americanlaserco.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Downtown LA, CA",
+        "notes": "Bring your own laser-safe material or choose from inventory. Cuts/engraves acrylic, wood, cardboard for signs, products, prototypes. By appointment only.",
+        "quality": "medium"
+      },
+      {
+        "company": "Evans Tool and Die / Evans Metal Stamping",
+        "state": "CA",
+        "category": "Sign Company",
+        "website": "https://evanstd.com/industries-served/custom-laser-cut-metal-signs-fabrication/",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "California",
+        "notes": "Custom laser cut steel and metal products for signage and architectural details. Precision manufacturing with creative expression.",
+        "quality": "medium"
+      },
+      {
+        "company": "Houston Sign Company",
+        "state": "TX",
+        "category": "Sign Company",
+        "website": "https://houstonsign.com",
+        "email": "info@houstonsign.com",
+        "linkedin": null,
+        "instagram": null,
+        "phone": "(713) 662-3123",
+        "address": "5801 Chimney Rock Rd, Houston, TX 77081",
+        "notes": "Houston-based sign company offering laser engraving, etching, and custom signage. Also provides industrial labels and equipment labeling services.",
+        "quality": "high"
+      },
+      {
+        "company": "Texas Sign & Graphics",
+        "state": "TX",
+        "category": "Sign Company",
+        "website": "https://texassignandgraphics.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Texas",
+        "notes": "Wholesale sign manufacturer for sign shops and resellers. Capabilities: laser engraving (up to 250 watts, 5'x5' cuts), UV flatbed/roll printing, digital cutting (Zund), sublimation, custom fabrication. Emergency/overflow work available.",
+        "quality": "high"
+      },
+      {
+        "company": "Digi Printing & Cutting",
+        "state": "TX",
+        "category": "Sign Company",
+        "website": "https://www.digiprintingshop.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "San Antonio, TX",
+        "notes": "Full service sign manufacturer. Wholesale ADA & directional signs, FCO letters, laser & rotary cutting and engraving, wide-format and custom printing. Family operated since 2010.",
+        "quality": "high"
+      },
+      {
+        "company": "ZLazr",
+        "state": "TX",
+        "category": "Sign Company",
+        "website": "https://zlazr.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "Houston, TX",
+        "notes": "Custom laser engraving, cutting, etching and marking. Specializes in wooden shapes with clean cuts (proprietary method). Also offers 3D printing services.",
+        "quality": "medium"
+      },
+      {
+        "company": "Fire Light Laser",
+        "state": "TX",
+        "category": "Sign Company",
+        "website": "https://www.firelightlaser.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": "(512) 559-1111",
+        "address": "Buda, TX (near Austin)",
+        "notes": "Laser engraving services for trophies, plaques, signs, promotional items. Also offers color imprinting, awards, personalization. Open weekdays 9-5 Central.",
+        "quality": "medium"
+      },
+      {
+        "company": "South Texas Signs and Engraving",
+        "state": "TX",
+        "category": "Sign Company",
+        "website": "https://www.southtexassignshop.com",
+        "email": null,
+        "linkedin": null,
+        "instagram": null,
+        "phone": null,
+        "address": "San Antonio, TX area",
+        "notes": "Sign and banner printing, laser engraving. In-house capabilities for business cards, bulk mailings, trophies and awards.",
+        "quality": "medium"
+      }
+    ]
+  }
+}

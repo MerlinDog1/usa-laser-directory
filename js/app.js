@@ -584,7 +584,8 @@ class BusinessDirectory {
     getCategoryClass(category) {
         const map = {
             'Engraver': 'category-engraving',
-            'Distributor': 'category-signage'
+            'Distributor': 'category-signage',
+            'Sign Company': 'category-trophies'
         };
         return map[category] || '';
     }
