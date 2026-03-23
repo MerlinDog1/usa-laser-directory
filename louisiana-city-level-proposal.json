@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction",
+    "target_cities": [
+      "Covington",
+      "Lafayette",
+      "New Orleans"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 4,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 1
+  },
+  "candidates": [
+    {
+      "company": "Advanced Laser Engraving of Louisiana",
+      "state": "Louisiana",
+      "city_or_metro": "Covington",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.advancedlaseroflouisiana.com/",
+      "email": "info@mysite.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "985-666-9203",
+      "address": "122 Terrabella Blvd, Covington, LA 70433",
+      "notes": "Local laser engraving business with direct address and phone.",
+      "quality": 7
+    },
+    {
+      "company": "Trinity Graphx Signs",
+      "state": "Louisiana",
+      "city_or_metro": "Lafayette",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://www.trinitygraphx.com/laser-printing",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "3372578893",
+      "address": "Lafayette, LA 70506",
+      "notes": "Lafayette sign company with explicit laser engraving page.",
+      "quality": 7
+    },
+    {
+      "company": "Ed. Smith's Stencil Works, Ltd.",
+      "state": "Louisiana",
+      "city_or_metro": "New Orleans",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.edsmiths.net/",
+      "email": "sales@EdSmiths.net",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "504.525.2128",
+      "address": "New Orleans, LA",
+      "notes": "Established New Orleans stencil and engraving company with direct sales email.",
+      "quality": 8
+    },
+    {
+      "company": "NOLA Laser",
+      "state": "Louisiana",
+      "city_or_metro": "New Orleans",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://laser504.com/laser-engraving/",
+      "email": "nolalaser504@gmail.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "504-434-5953",
+      "address": "New Orleans, LA",
+      "notes": "New Orleans laser cutting and engraving shop with direct phone and email.",
+      "quality": 8
+    }
+  ]
+}

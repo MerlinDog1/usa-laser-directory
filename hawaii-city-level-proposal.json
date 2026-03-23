@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction",
+    "target_cities": [
+      "Honolulu",
+      "Maui",
+      "Regional service into Hawaii"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 4,
+    "engraver_count": 3,
+    "distributor_count": 1,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Maui Engraving",
+      "state": "Hawaii",
+      "city_or_metro": "Maui",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "http://www.mauiengraving.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Maui, HI 96793",
+      "notes": "Longstanding Hawaii engraving shop focused on plaques, instruments and custom gifts.",
+      "quality": 7
+    },
+    {
+      "company": "TLC Laser Works",
+      "state": "Hawaii",
+      "city_or_metro": "Maui",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://tlclaserworks.com/",
+      "email": "contactus@tlclaserworks.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "8082641212",
+      "address": "Maui, HI",
+      "notes": "Hawaii laser engraving studio with direct email and phone.",
+      "quality": 8
+    },
+    {
+      "company": "Aloha Cuts",
+      "state": "Hawaii",
+      "city_or_metro": "Honolulu",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://alohacuts.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Honolulu, HI",
+      "notes": "Honolulu-based laser cutting specialist relevant for Oahu commercial fabrication coverage.",
+      "quality": 6
+    },
+    {
+      "company": "Cutting Edge Systems, Inc.",
+      "state": "Hawaii",
+      "city_or_metro": "Regional service into Hawaii",
+      "category": "Distributor",
+      "mainBrand": "Epilog Laser",
+      "website": "https://cuttingedgesystems.com/",
+      "email": "info@cuttingedgesystems.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(714) 540-2233",
+      "address": "Costa Mesa, CA serving Hawaii",
+      "notes": "Exclusive Epilog distributor covering Southern California, Las Vegas and Hawaii.",
+      "quality": 7
+    }
+  ]
+}

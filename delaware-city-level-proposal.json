@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction",
+    "target_cities": [
+      "New Castle",
+      "Newark",
+      "Wilmington"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 1,
+    "distributor_count": 0,
+    "sign_company_count": 2
+  },
+  "candidates": [
+    {
+      "company": "Victory Laser Engraving",
+      "state": "Delaware",
+      "city_or_metro": "Wilmington",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.victorylaserco.com/",
+      "email": "info@victorylaserco.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(302) 599-8743",
+      "address": "Wilmington, DE",
+      "notes": "Direct Wilmington laser engraving business with clean website, phone and email.",
+      "quality": 8
+    },
+    {
+      "company": "Insta Signs Plus",
+      "state": "Delaware",
+      "city_or_metro": "New Castle",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://instasignsplus.com/engraving/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(302) 324-8800",
+      "address": "New Castle, DE 19720",
+      "notes": "Delaware sign shop with explicit engraving services page and direct phone.",
+      "quality": 8
+    },
+    {
+      "company": "Signarama Newark",
+      "state": "Delaware",
+      "city_or_metro": "Newark",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://signarama.com/locations/de-newark/products/metal-signs",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Newark, DE",
+      "notes": "Metal-sign page supports engraved/lased commercial signage coverage for Delaware.",
+      "quality": 6
+    }
+  ]
+}

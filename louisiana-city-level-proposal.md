@@ -1,27 +1,26 @@
-# Missouri City-Level Research Proposal
+# Louisiana City-Level Research Proposal
 
 **Research Date:** 2026-03-23  
 **Methodology:** DuckDuckGo city-level search plus homepage/contact extraction
 
 ## Target Cities Used
 
-- Raymore
-- St. Charles
-- St. Louis
-- St. Louis metro
+- Covington
+- Lafayette
+- New Orleans
 
 ## Summary Statistics
 
 | Metric | Count |
 |--------|-------|
-| **Total Candidates** | 5 |
+| **Total Candidates** | 4 |
 | **Engravers** | 3 |
-| **Distributors** | 1 |
+| **Distributors** | 0 |
 | **Sign Companies** | 1 |
 
 ## Merge-Ready Entries
 
-- Excel Engraving Inc.
-- SDS Laser
-- Signature Signs
-- Mid North Visuals
+- Advanced Laser Engraving of Louisiana
+- Trinity Graphx Signs
+- Ed. Smith's Stencil Works, Ltd.
+- NOLA Laser

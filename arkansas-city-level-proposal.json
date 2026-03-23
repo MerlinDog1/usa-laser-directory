@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction",
+    "target_cities": [
+      "Little Rock",
+      "North Little Rock",
+      "Springdale"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 4,
+    "engraver_count": 4,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Alpha Laser Works",
+      "state": "Arkansas",
+      "city_or_metro": "North Little Rock",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.alphalaserworks.com/",
+      "email": "admin@alphalaserworks.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "North Little Rock, AR",
+      "notes": "Direct laser engraving specialist with state-local positioning and clear contact email.",
+      "quality": 7
+    },
+    {
+      "company": "Ozark Laser Engraving",
+      "state": "Arkansas",
+      "city_or_metro": "Springdale",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.ozarklaserengraving.com/",
+      "email": "OzarkLaserEngraving@yahoo.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "479-755-4945",
+      "address": "21995 E Scott Hollow Rd, Springdale, AR 72764",
+      "notes": "Northwest Arkansas engraver with direct website, address, phone and email.",
+      "quality": 8
+    },
+    {
+      "company": "Cache River Creative",
+      "state": "Arkansas",
+      "city_or_metro": "Little Rock",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://cacherivercreative.com/",
+      "email": "Sales@CacheRiverCreative.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Little Rock, AR",
+      "notes": "Arkansas shop offering laser engraving alongside UV printing and embroidery.",
+      "quality": 7
+    },
+    {
+      "company": "Mission Impossible Laser North Little Rock",
+      "state": "Arkansas",
+      "city_or_metro": "North Little Rock",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.missionimpossiblelaser.com/n-little-rock-ar",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "5172940315",
+      "address": "North Little Rock, AR",
+      "notes": "National laser engraving service with dedicated North Little Rock service page; acceptable supporting coverage.",
+      "quality": 6
+    }
+  ]
+}

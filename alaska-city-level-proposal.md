@@ -1,27 +1,25 @@
-# Missouri City-Level Research Proposal
+# Alaska City-Level Research Proposal
 
 **Research Date:** 2026-03-23  
 **Methodology:** DuckDuckGo city-level search plus homepage/contact extraction
 
 ## Target Cities Used
 
-- Raymore
-- St. Charles
-- St. Louis
-- St. Louis metro
+- Anchorage
+- Big Lake
+- Regional service into Alaska
 
 ## Summary Statistics
 
 | Metric | Count |
 |--------|-------|
-| **Total Candidates** | 5 |
-| **Engravers** | 3 |
+| **Total Candidates** | 4 |
+| **Engravers** | 2 |
 | **Distributors** | 1 |
 | **Sign Companies** | 1 |
 
 ## Merge-Ready Entries
 
-- Excel Engraving Inc.
-- SDS Laser
-- Signature Signs
-- Mid North Visuals
+- Latitude 67 Laser Design & Engraving
+- Alaska Serigraphics
+- Advanced Marking Solutions

@@ -1,27 +1,25 @@
-# Missouri City-Level Research Proposal
+# Hawaii City-Level Research Proposal
 
 **Research Date:** 2026-03-23  
 **Methodology:** DuckDuckGo city-level search plus homepage/contact extraction
 
 ## Target Cities Used
 
-- Raymore
-- St. Charles
-- St. Louis
-- St. Louis metro
+- Honolulu
+- Maui
+- Regional service into Hawaii
 
 ## Summary Statistics
 
 | Metric | Count |
 |--------|-------|
-| **Total Candidates** | 5 |
+| **Total Candidates** | 4 |
 | **Engravers** | 3 |
 | **Distributors** | 1 |
-| **Sign Companies** | 1 |
+| **Sign Companies** | 0 |
 
 ## Merge-Ready Entries
 
-- Excel Engraving Inc.
-- SDS Laser
-- Signature Signs
-- Mid North Visuals
+- Maui Engraving
+- TLC Laser Works
+- Cutting Edge Systems, Inc.

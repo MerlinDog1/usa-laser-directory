@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction for Birmingham and Huntsville",
+    "target_cities": ["Birmingham", "Huntsville"],
+    "model": "Manual verification workflow",
+    "total_candidates": 4,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 2
+  },
+  "candidates": [
+    {
+      "company": "To Etch Their Own, LLC",
+      "state": "Alabama",
+      "city_or_metro": "Huntsville",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://toetchtheirown.com/",
+      "email": "info@toetchtheirown.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Huntsville, AL",
+      "notes": "Huntsville laser engraving shop with explicit custom engraving service positioning.",
+      "quality": 7
+    },
+    {
+      "company": "Laser Cutting Service Birmingham",
+      "state": "Alabama",
+      "city_or_metro": "Birmingham",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://www.lasercuttingservice.net/custom-signs/birmingham-al",
+      "email": "cheryl@lasercuttingservice.net",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(205) 458-0321",
+      "address": "3201 7th Ave N, Birmingham, AL 35203",
+      "notes": "Commercial custom sign fabricator with Birmingham landing page and direct contact details; laser-cut and engraved sign relevance.",
+      "quality": 8
+    },
+    {
+      "company": "Easyl Engraving",
+      "state": "Alabama",
+      "city_or_metro": "Huntsville",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://easylengraving.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(866) 262-9440",
+      "address": "Huntsville, AL 35806",
+      "notes": "Huntsville engraving business with direct site and published phone; useful statewide commercial engraving coverage.",
+      "quality": 7
+    },
+    {
+      "company": "Signs By Tomorrow Huntsville",
+      "state": "Alabama",
+      "city_or_metro": "Huntsville",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://www.signsbytomorrow.com/huntsville/signs/engraved-signs-and-plaques",
+      "email": "info@sbthuntsville.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "256-722-8522",
+      "address": "Huntsville, AL 35816",
+      "notes": "Explicit engraved signs and plaques page for Huntsville commercial customers.",
+      "quality": 8
+    }
+  ]
+}

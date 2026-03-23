@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction",
+    "target_cities": [
+      "Connecticut",
+      "Wallingford"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "CT Laser & Engraving",
+      "state": "Connecticut",
+      "city_or_metro": "Wallingford",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.ctpartmarking.com/services",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(203) 265-3939",
+      "address": "63 Cherry Street North, Wallingford, CT 06492",
+      "notes": "Connecticut laser engraving / part marking specialist with clear Wallingford address and phone.",
+      "quality": 8
+    },
+    {
+      "company": "Pauway Corp.",
+      "state": "Connecticut",
+      "city_or_metro": "Wallingford",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.pauwaycorp.com/laser-marking-a-engraving.html",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "203.284.8766",
+      "address": "Wallingford, CT",
+      "notes": "Industrial marking and engraving provider serving Connecticut and Massachusetts.",
+      "quality": 7
+    },
+    {
+      "company": "Laserwoodworks",
+      "state": "Connecticut",
+      "city_or_metro": "Connecticut",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.laserwoodworksct.com/",
+      "email": "laserwoodworksct@gmail.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Connecticut",
+      "notes": "Connecticut laser engraving studio with direct contact email and custom fabrication focus.",
+      "quality": 7
+    }
+  ]
+}

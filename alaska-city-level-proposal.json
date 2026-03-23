@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "DuckDuckGo city-level search plus homepage/contact extraction",
+    "target_cities": [
+      "Anchorage",
+      "Big Lake",
+      "Regional service into Alaska"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 4,
+    "engraver_count": 2,
+    "distributor_count": 1,
+    "sign_company_count": 1
+  },
+  "candidates": [
+    {
+      "company": "Latitude 67 Laser Design & Engraving",
+      "state": "Alaska",
+      "city_or_metro": "Big Lake",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://lat67.com/info",
+      "email": "glenn@lat67.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Big Lake, AK 99652",
+      "notes": "Alaska laser design and engraving shop with direct contact email and state-local footprint.",
+      "quality": 7
+    },
+    {
+      "company": "Alaskan Memories",
+      "state": "Alaska",
+      "city_or_metro": "Anchorage",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.alaskanmemories.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "403 W Northern Lights Blvd #3, Anchorage, AK 99503",
+      "notes": "Anchorage engraving and gift personalization shop with physical location; lighter contact surface but clearly relevant.",
+      "quality": 6
+    },
+    {
+      "company": "Alaska Serigraphics",
+      "state": "Alaska",
+      "city_or_metro": "Anchorage",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://akserigraphics.com/services/laser.engraving/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "+1-907-561-2000",
+      "address": "Anchorage, AK",
+      "notes": "Commercial graphics/sign company with explicit laser engraving service page.",
+      "quality": 7
+    },
+    {
+      "company": "Advanced Marking Solutions",
+      "state": "Alaska",
+      "city_or_metro": "Regional service into Alaska",
+      "category": "Distributor",
+      "mainBrand": "Epilog Laser",
+      "website": "https://www.advancedmarkingsolutions.com/",
+      "email": "mark@advancedmarkingsolutions.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(800) 974-1797",
+      "address": "Morgan Hill, CA serving Alaska",
+      "notes": "Exclusive Epilog distributor covering Northern California and Alaska; useful for sparse-state distributor coverage.",
+      "quality": 7
+    }
+  ]
+}
