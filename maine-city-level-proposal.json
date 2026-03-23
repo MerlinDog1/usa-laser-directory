@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major Maine metros with homepage/contact extraction",
+    "target_cities": [
+      "Portland",
+      "Chelsea",
+      "Westbrook"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Hannah Manufacturing",
+      "state": "Maine",
+      "city_or_metro": "Chelsea",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.hannahmfg.com/",
+      "email": "info@hannahmfg.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "207-622-0005",
+      "address": "460 Cony Road, Chelsea, ME 04330",
+      "notes": "Chelsea engraving/cutting shop with direct contact page listing street address, phone, and email. Covers commercial laser engraving, cutting, and marking work.",
+      "quality": 8
+    },
+    {
+      "company": "KLA Engraving",
+      "state": "Maine",
+      "city_or_metro": "Westbrook",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.klaengraving.com/",
+      "email": "info@klaengraving.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(207) 222-7800",
+      "address": "21 Saco Street, Westbrook, ME 04092",
+      "notes": "Southern Maine custom engraving shop with clear storefront address plus direct phone and email on its contact page.",
+      "quality": 8
+    },
+    {
+      "company": "MC Laser Labs",
+      "state": "Maine",
+      "city_or_metro": "Portland",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.mclaserlabs.com/",
+      "email": "marshall@mclaserlabs.com",
+      "linkedin": null,
+      "instagram": "http://instagram.com/mclaserlabs",
+      "phone": null,
+      "address": "Portland, ME",
+      "notes": "Portland laser cutting/engraving and fabrication studio. Public site and footer expose direct email plus Instagram; phone was not surfaced cleanly.",
+      "quality": 7
+    }
+  ]
+}

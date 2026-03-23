@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major New Mexico metros with homepage/contact extraction",
+    "target_cities": [
+      "Santa Fe",
+      "Albuquerque"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Arroyo Studio",
+      "state": "New Mexico",
+      "city_or_metro": "Santa Fe",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.arroyostudio.com/",
+      "email": "info@arroyostudio.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "505.930.7936",
+      "address": "1808 2nd St. Suite K, Santa Fe, NM 87505",
+      "notes": "Santa Fe laser engraving/cutting studio with strong direct phone, email, and full street address on the homepage.",
+      "quality": 8
+    },
+    {
+      "company": "The Recognition Place",
+      "state": "New Mexico",
+      "city_or_metro": "Albuquerque",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://trpnm.com/engraving/",
+      "email": "info@trpnm.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "505.881.9003",
+      "address": "4770 Montgomery Blvd NE, Suite C-120, Albuquerque, NM",
+      "notes": "Established Albuquerque awards and engraving business with explicit laser engraving page, direct email/phone, and visible local storefront address.",
+      "quality": 8
+    },
+    {
+      "company": "Kokopelli Design Worx LLC",
+      "state": "New Mexico",
+      "city_or_metro": "Santa Fe",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://wolvesdencncmetalworx.com/",
+      "email": "wolvesdencncmetalworx@gmail.com",
+      "linkedin": null,
+      "instagram": "https://www.instagram.com/wolvesdencncmetalworx",
+      "phone": "505-459-4007",
+      "address": "Santa Fe, NM",
+      "notes": "Santa Fe metal fabrication and laser engraving shop operating under Kokopelli Design Worx / Wolves Den CNC Metal Worx branding. Good direct phone/email plus active Instagram.",
+      "quality": 9
+    }
+  ]
+}

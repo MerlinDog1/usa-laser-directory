@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major South Carolina metros with homepage/contact extraction",
+    "target_cities": [
+      "Charleston",
+      "Columbia",
+      "Taylors"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 1,
+    "distributor_count": 0,
+    "sign_company_count": 2
+  },
+  "candidates": [
+    {
+      "company": "FASTSIGNS of Charleston, SC",
+      "state": "South Carolina",
+      "city_or_metro": "Charleston",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://www.fastsigns.com/charleston-sc/about-us/laser-engraving/",
+      "email": "146@fastsigns.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(843) 438-6956",
+      "address": "2467 Savannah Hwy Suite 540, Charleston, SC 29414",
+      "notes": "Charleston FASTSIGNS location with a dedicated laser engraving service page and direct local phone. Uses the center email alias format common to FASTSIGNS franchises.",
+      "quality": 8
+    },
+    {
+      "company": "Northeast Trophies & Awards",
+      "state": "South Carolina",
+      "city_or_metro": "Columbia",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.sctrophy.com/",
+      "email": "order@netrophies.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(803)-738-1488",
+      "address": "5319 Forest Drive, Columbia, SC 29206",
+      "notes": "Columbia awards and laser engraving shop with explicit custom laser engraving positioning, direct email, phone, and street address.",
+      "quality": 8
+    },
+    {
+      "company": "Pinpoint Creative Studio",
+      "state": "South Carolina",
+      "city_or_metro": "Taylors",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://www.ppointlaser.com/our-impact",
+      "email": "sofia@ppointlaser.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "8642524030",
+      "address": "250 Mill St., Taylors, SC",
+      "notes": "Taylors creative/sign studio with documented engraved business products and direct designer email. Good but slightly lighter on contact/brand normalization than the strongest records.",
+      "quality": 8
+    }
+  ]
+}

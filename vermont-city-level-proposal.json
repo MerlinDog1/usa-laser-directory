@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major Vermont metros with homepage/contact extraction",
+    "target_cities": [
+      "Burlington",
+      "Rutland"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Vermont Awards & Engraving",
+      "state": "Vermont",
+      "city_or_metro": "Burlington",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://vermontawards.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": "https://www.instagram.com/VermontAwards",
+      "phone": "802-862-3000",
+      "address": "Burlington, VT",
+      "notes": "Long-running Burlington-area awards and engraving shop with phone plus active Instagram; public email was not surfaced in readable content.",
+      "quality": 7
+    },
+    {
+      "company": "Gordon Stamp & Engraving",
+      "state": "Vermont",
+      "city_or_metro": "Burlington",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.gordonstamp.com/",
+      "email": "pgras@gordonstamp.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(802) 864-6985",
+      "address": "117 North Street, Burlington, VT 05401",
+      "notes": "Burlington custom engraving and stamp store with clear phone, email, address, and statewide service claims.",
+      "quality": 8
+    },
+    {
+      "company": "Initial Ideas, Inc.",
+      "state": "Vermont",
+      "city_or_metro": "Rutland",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.initialideasvt.com/trophies-engraving",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "802.773.6310",
+      "address": "142 West Street, Rutland, VT 05701",
+      "notes": "Rutland shop with trophies, engraving, and laser engraver capability clearly stated. Public phone/address are visible; public email was not surfaced.",
+      "quality": 7
+    }
+  ]
+}

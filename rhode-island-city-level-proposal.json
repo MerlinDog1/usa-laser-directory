@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major Rhode Island metros with homepage/contact extraction",
+    "target_cities": [
+      "Providence",
+      "Pawtucket"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Technodic, Inc.",
+      "state": "Rhode Island",
+      "city_or_metro": "Providence",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.technodic.com/laser.html",
+      "email": "stevemasso@technodic.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "401-467-6660",
+      "address": "245 Carolina Avenue, Providence, RI 02905",
+      "notes": "Providence industrial laser marking and engraving provider with a dedicated RI contact page and multiple named email contacts.",
+      "quality": 8
+    },
+    {
+      "company": "World Trophies",
+      "state": "Rhode Island",
+      "city_or_metro": "Providence",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.worldtrophies.com/",
+      "email": "sales@worldtrophies.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "401-272-5846",
+      "address": "275 Silver Spring St, Providence, RI 02904",
+      "notes": "Providence trophies, plaques, and awards supplier with direct sales email and local phone/address; suitable as a contactable engraving-style awards shop.",
+      "quality": 8
+    },
+    {
+      "company": "Rainbow Creations",
+      "state": "Rhode Island",
+      "city_or_metro": "Pawtucket",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://rainbowcreations.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(401) 723-2700",
+      "address": "665 Broadway, Pawtucket, RI 02860",
+      "notes": "Pawtucket awards and custom creations shop with public RI phone/address. Public email was not surfaced, so this is mergeable but lighter than Technodic and World Trophies.",
+      "quality": 7
+    }
+  ]
+}

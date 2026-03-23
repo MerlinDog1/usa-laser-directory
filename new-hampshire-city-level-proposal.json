@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major New Hampshire metros with homepage/contact extraction",
+    "target_cities": [
+      "Merrimack",
+      "Rochester"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 2,
+    "engraver_count": 2,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Integrity Laser",
+      "state": "New Hampshire",
+      "city_or_metro": "Merrimack",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://ilasernh.com/",
+      "email": "info@ilasernh.com",
+      "linkedin": null,
+      "instagram": "https://www.instagram.com/integritylaser/",
+      "phone": "603-930-1413",
+      "address": "10 Twin Bridge Rd 2A, Merrimack, NH 03054",
+      "notes": "Large Merrimack engraving operation with direct phone, surfaced contact email, and clear local address on-site.",
+      "quality": 9
+    },
+    {
+      "company": "Etchex",
+      "state": "New Hampshire",
+      "city_or_metro": "Rochester",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.etchex.com/",
+      "email": "info@etchex.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "(603) 431-7005",
+      "address": "149 Rochester Hill Road, Rochester, NH 03867",
+      "notes": "Rochester laser engraving shop handling builders, designers, gifts, and custom etched pieces with strong direct contact depth.",
+      "quality": 8
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major Mississippi metros with homepage/contact extraction",
+    "target_cities": [
+      "Hattiesburg",
+      "Tupelo"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 3,
+    "engraver_count": 3,
+    "distributor_count": 0,
+    "sign_company_count": 0
+  },
+  "candidates": [
+    {
+      "company": "Pine Belt Trophy",
+      "state": "Mississippi",
+      "city_or_metro": "Hattiesburg",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.pinebelttrophy.com/services",
+      "email": "pinebelttrophy1@gmail.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "601-582-9273",
+      "address": "1100 Hardy St. Suite 20, Hattiesburg, MS",
+      "notes": "Hattiesburg engraving and awards shop with direct Gmail, local phone, and visible storefront address on the services page.",
+      "quality": 8
+    },
+    {
+      "company": "Tupelo Engraving and Specialty Products",
+      "state": "Mississippi",
+      "city_or_metro": "Tupelo",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.tupeloengraving.com/",
+      "email": "kristy@planhouseprinting.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "662-407-0193",
+      "address": "605 West Main Street, Tupelo, MS 38804",
+      "notes": "Tupelo engraving shop with direct local phone and a surfaced Plan House Printing contact email tied to the business.",
+      "quality": 8
+    },
+    {
+      "company": "45 Precision",
+      "state": "Mississippi",
+      "city_or_metro": "Jackson metro",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://45precision.com/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": null,
+      "address": "Mississippi",
+      "notes": "Promising firearm-focused laser engraving shop with a live site and strong service language, but direct public contact details were not surfaced cleanly enough for merge. Keep as proposal-only until re-researched.",
+      "quality": 5
+    }
+  ]
+}

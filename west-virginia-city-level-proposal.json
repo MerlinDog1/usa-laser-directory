@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "research_date": "2026-03-23",
+    "methodology": "City-level search across major West Virginia metros with homepage/contact extraction",
+    "target_cities": [
+      "Elkins",
+      "Hurricane"
+    ],
+    "model": "Manual verification workflow",
+    "total_candidates": 2,
+    "engraver_count": 1,
+    "distributor_count": 0,
+    "sign_company_count": 1
+  },
+  "candidates": [
+    {
+      "company": "Emblazon Sign Company",
+      "state": "West Virginia",
+      "city_or_metro": "Elkins",
+      "category": "Sign Company",
+      "mainBrand": null,
+      "website": "https://emblazonsignco.com/services/engraving/",
+      "email": null,
+      "linkedin": null,
+      "instagram": null,
+      "phone": "304-801-3161",
+      "address": "2285 Beverly Pike Suite 1, Elkins, WV 26241",
+      "notes": "North-central West Virginia sign company with explicit engraving service coverage and a clean Elkins address/phone trail.",
+      "quality": 7
+    },
+    {
+      "company": "Shamrock Custom Laser Engraving, LLC",
+      "state": "West Virginia",
+      "city_or_metro": "Hurricane",
+      "category": "Engraver",
+      "mainBrand": null,
+      "website": "https://www.shamrockengraving.com/the-team",
+      "email": "shelly.conley@shamrockengraving.com",
+      "linkedin": null,
+      "instagram": null,
+      "phone": "304-543-2432",
+      "address": "Poindexter Road, Hurricane, WV 25526",
+      "notes": "West Virginia laser engraving business with direct owner email and phone plus retail presence in Charleston/Huntington outlets.",
+      "quality": 8
+    }
+  ]
+}
