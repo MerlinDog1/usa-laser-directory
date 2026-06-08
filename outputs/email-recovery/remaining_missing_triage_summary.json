@@ -1,0 +1,13 @@
+{
+  "remaining_missing": 133,
+  "triage_counts": {
+    "no_email_found_on_site": 88,
+    "dead_dns_external_lookup_needed": 4,
+    "ssl_problem_external_lookup_needed": 4,
+    "blocked_403_external_lookup_needed": 16,
+    "only_junk_or_template_candidates": 8,
+    "not_found_external_lookup_needed": 6,
+    "connection_problem_retry_or_external_lookup": 3,
+    "manual_source_check_remaining": 4
+  }
+}

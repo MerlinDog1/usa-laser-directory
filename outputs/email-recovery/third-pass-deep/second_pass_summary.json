@@ -1,0 +1,11 @@
+{
+  "currently_invalid_rows": 137,
+  "already_applied_rows": 53,
+  "rows_with_review_candidates": 16,
+  "candidate_records_reviewed": 25,
+  "accepted_rows": 4,
+  "accepted_records": 8,
+  "manual_records": 4,
+  "rejected_records": 13,
+  "applied": false
+}

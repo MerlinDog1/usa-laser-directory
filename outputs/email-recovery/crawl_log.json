@@ -1,0 +1,278 @@
+[
+  {
+    "id": 8,
+    "company": "Universal Marking, Inc.",
+    "url": "https://www.laserengravingservices.net/los-angeles-california-etching-marking",
+    "status": "url error [Errno -2] Name or service not known"
+  },
+  {
+    "id": 22,
+    "company": "Laser Engraver OC",
+    "url": "http://www.laserengraveroc.com/",
+    "status": "url error [Errno -2] Name or service not known"
+  },
+  {
+    "id": 40,
+    "company": "DFW Custom Engraving",
+    "url": "https://dfwcustomengraving.com/",
+    "status": "url error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+  },
+  {
+    "id": 47,
+    "company": "Los Angeles Sign Company",
+    "url": "https://losangelesigncompany.com",
+    "status": "http 403"
+  },
+  {
+    "id": 60,
+    "company": "Orange County Signs",
+    "url": "https://orangecountysigns.com/component/contact/contact/1.html?Itemid=582",
+    "status": "http 404"
+  },
+  {
+    "id": 65,
+    "company": "Signs West",
+    "url": "https://signswestaustin.com",
+    "status": "url error timed out"
+  },
+  {
+    "id": 70,
+    "company": "AlphaGraphics North Austin",
+    "url": "https://www.alphagraphics.com/us-texas-austin-us371/laser-etching",
+    "status": "http 404"
+  },
+  {
+    "id": 71,
+    "company": "FlashWorks Specialties",
+    "url": "https://flashworksspecialties.com",
+    "status": "url error [Errno -3] Temporary failure in name resolution"
+  },
+  {
+    "id": 72,
+    "company": "House of Blades",
+    "url": "https://houseofblades.com/laser-engraving-fort-worth/",
+    "status": "http 404"
+  },
+  {
+    "id": 73,
+    "company": "Custom Laser Engravers",
+    "url": "https://customlaserengravers.com",
+    "status": "http 403"
+  },
+  {
+    "id": 87,
+    "company": "Visual Signs and Graphics",
+    "url": "https://visualsignsandgraphics.com/contact-us/",
+    "status": "http 403"
+  },
+  {
+    "id": 87,
+    "company": "Visual Signs and Graphics",
+    "url": "https://visualsignsandgraphics.com/about-us/",
+    "status": "http 403"
+  },
+  {
+    "id": 99,
+    "company": "SB Laser Engraving",
+    "url": "https://sblaserengraving.com/about-us/",
+    "status": "http 404"
+  },
+  {
+    "id": 104,
+    "company": "Fortuna Visual Group",
+    "url": "https://fortunavisual.com",
+    "status": "http 403"
+  },
+  {
+    "id": 113,
+    "company": "Lindenmeyr Munroe",
+    "url": "https://www.lindenmeyrmunroe.com",
+    "status": "http 403"
+  },
+  {
+    "id": 130,
+    "company": "Rastermark",
+    "url": "https://www.rastermark.com/",
+    "status": "url error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)"
+  },
+  {
+    "id": 152,
+    "company": "Tom's Custom Guns",
+    "url": "https://tomscustomguns.com/",
+    "status": "http 403"
+  },
+  {
+    "id": 202,
+    "company": "Michigan Custom Signs",
+    "url": "https://michigancustomsigns.com/contact-us/",
+    "status": "http 403"
+  },
+  {
+    "id": 202,
+    "company": "Michigan Custom Signs",
+    "url": "https://michigancustomsigns.com/about-us/",
+    "status": "http 403"
+  },
+  {
+    "id": 212,
+    "company": "JC Signs Charlotte",
+    "url": "https://jcsignscharlotte.com/contact/",
+    "status": "http 403"
+  },
+  {
+    "id": 212,
+    "company": "JC Signs Charlotte",
+    "url": "https://jcsignscharlotte.com/about/",
+    "status": "http 403"
+  },
+  {
+    "id": 212,
+    "company": "JC Signs Charlotte",
+    "url": "https://jcsignscharlotte.com/custom-signage-at-your-service/",
+    "status": "http 403"
+  },
+  {
+    "id": 220,
+    "company": "Sign Edge Custom Signs",
+    "url": "https://signedgenc.com",
+    "status": "http 403"
+  },
+  {
+    "id": 221,
+    "company": "Rastermark (Ketchem Sales)",
+    "url": "https://www.rastermark.com",
+    "status": "url error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)"
+  },
+  {
+    "id": 243,
+    "company": "Jersey Laser Craft",
+    "url": "https://www.jerseylasercraft.com/",
+    "status": "url error [Errno -2] Name or service not known"
+  },
+  {
+    "id": 250,
+    "company": "Gable",
+    "url": "https://gablecompany.com/",
+    "status": "http 403"
+  },
+  {
+    "id": 254,
+    "company": "Baltimore Signs & Graphics",
+    "url": "https://baltimoresignsandgraphics.com/",
+    "status": "http 403"
+  },
+  {
+    "id": 257,
+    "company": "Rockville Sign Company",
+    "url": "https://rockvillesigncompany.com/",
+    "status": "http 403"
+  },
+  {
+    "id": 268,
+    "company": "Focused Laser Solutions",
+    "url": "https://www.focusedlaser.com",
+    "status": "http 403"
+  },
+  {
+    "id": 277,
+    "company": "Excell Solutions",
+    "url": "https://www.excellsol.com",
+    "status": "http 403"
+  },
+  {
+    "id": 292,
+    "company": "Spokane Gifts",
+    "url": "https://spokanegifts.com/contact-us.html",
+    "status": "http 404"
+  },
+  {
+    "id": 305,
+    "company": "Crossroad Sign Studio",
+    "url": "https://crossroadsign.com/washington-sign-company/bellevue-sign-company/",
+    "status": "http 403"
+  },
+  {
+    "id": 309,
+    "company": "Simchuks Laser Engraving",
+    "url": "https://www.simchuklaser.com/",
+    "status": "http 403"
+  },
+  {
+    "id": 321,
+    "company": "AZ Logo Laser",
+    "url": "https://azlogolaser.com",
+    "status": "RemoteDisconnected: Remote end closed connection without response"
+  },
+  {
+    "id": 330,
+    "company": "Arizona Commercial Signs",
+    "url": "https://arizonacommercialsigns.com/contact-page.htm",
+    "status": "http 404"
+  },
+  {
+    "id": 343,
+    "company": "RMI Laser",
+    "url": "https://rmilaser.com",
+    "status": "http 403"
+  },
+  {
+    "id": 348,
+    "company": "303 Sign Company",
+    "url": "https://303signcompany.com",
+    "status": "http 403"
+  },
+  {
+    "id": 349,
+    "company": "Dun-Rite Signs",
+    "url": "https://dunritesigns.com",
+    "status": "url error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+  },
+  {
+    "id": 361,
+    "company": "Mercury Engraving LLC",
+    "url": "https://www.mercuryengraving.com",
+    "status": "url error timed out"
+  },
+  {
+    "id": 396,
+    "company": "JC Pro Design",
+    "url": "https://www.jcprodesign.com",
+    "status": "http 403"
+  },
+  {
+    "id": 416,
+    "company": "Las Vegas Custom Signs",
+    "url": "https://lasvegascustomsigns.com",
+    "status": "http 403"
+  },
+  {
+    "id": 417,
+    "company": "YESCO",
+    "url": "https://www.yesco.com//about-us/",
+    "status": "http 404"
+  },
+  {
+    "id": 418,
+    "company": "Patrick's Signs",
+    "url": "https://www.patrickssigns.com/contact",
+    "status": "http 503"
+  },
+  {
+    "id": 435,
+    "company": "Custom Sign & Engineering Inc",
+    "url": "https://www.customsign.bz/request-appointment",
+    "status": "http 404"
+  },
+  {
+    "id": 482,
+    "company": "Dakota Awards",
+    "url": "https://www.dakawards.com/mobile/fullsite.php?FS=true",
+    "status": "url error timed out"
+  },
+  {
+    "id": 550,
+    "company": "Emblazon Sign Company",
+    "url": "https://emblazonsignco.com/services/engraving/contact-us",
+    "status": "http 404"
+  }
+]

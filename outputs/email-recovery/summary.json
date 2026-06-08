@@ -1,0 +1,10 @@
+{
+  "rows_total": 550,
+  "invalid_or_missing_email_rows": 198,
+  "candidate_count": 374,
+  "rows_with_candidates": 260,
+  "proposed_fills_at_threshold": 188,
+  "invalid_existing_emails_cleared": 2,
+  "threshold": 85,
+  "auto_fill_rule": "score >= threshold and email domain matches/resembles website domain"
+}

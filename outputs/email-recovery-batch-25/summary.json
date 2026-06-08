@@ -1,0 +1,8 @@
+{
+  "rows_total": 550,
+  "invalid_or_missing_email_rows": 385,
+  "candidate_count": 15,
+  "rows_with_candidates": 13,
+  "proposed_fills_at_threshold": 9,
+  "threshold": 85
+}

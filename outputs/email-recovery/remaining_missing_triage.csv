@@ -1,0 +1,134 @@
+id,company,state,website,triage,crawl_errors,candidate_count,review_statuses,next_action
+7,Jimani Inc.,California,https://www.jimani-inc.com/laser-engraving-services/los-angeles,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+8,"Universal Marking, Inc.",California,https://www.laserengravingservices.net/los-angeles-california-etching-marking,dead_dns_external_lookup_needed,url error [Errno -2] Name or service not known,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+21,OC Laser Engraving,California,https://oclaser.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+22,Laser Engraver OC,California,http://www.laserengraveroc.com/,dead_dns_external_lookup_needed,url error [Errno -2] Name or service not known,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+24,Dunham Metal Processing,California,https://www.dunhammetalprocessing.com/laser-marking-laser-engraving,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+27,Laser's Edge Engraving,California,http://lasersedgeengraving.net/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+30,Mission Impossible Laser,California,https://www.missionimpossiblelaser.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+39,Creative Laser Engraving,Texas,https://creativelaserengraving.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+40,DFW Custom Engraving,Texas,https://dfwcustomengraving.com/,ssl_problem_external_lookup_needed,url error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000),0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+47,Los Angeles Sign Company,California,https://losangelesigncompany.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+49,The Sign Studio,California,https://www.thesignstudioonline.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+52,Zap'O Marks,California,https://zapomarks.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+57,Capital City Signs,California,https://ccssac.com,only_junk_or_template_candidates,,2,reject,Ignore extracted candidates; use external lookup only.
+60,Orange County Signs,California,https://orangecountysigns.com,not_found_external_lookup_needed,http 404,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+65,Signs West,Texas,https://signswestaustin.com,connection_problem_retry_or_external_lookup,url error timed out,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+68,Laser Engraving Pros,Texas,https://lazerengravingpros.com/austin-custom-engraving/,only_junk_or_template_candidates,,1,reject,Ignore extracted candidates; use external lookup only.
+70,AlphaGraphics North Austin,Texas,https://www.alphagraphics.com/us-texas-austin-us371/laser-etching,not_found_external_lookup_needed,http 404,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+71,FlashWorks Specialties,Texas,https://flashworksspecialties.com,dead_dns_external_lookup_needed,url error [Errno -3] Temporary failure in name resolution,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+72,House of Blades,Texas,https://houseofblades.com/laser-engraving-fort-worth/,not_found_external_lookup_needed,http 404,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+73,Custom Laser Engravers,Texas,https://customlaserengravers.com,blocked_403_external_lookup_needed,http 403 | http 403 | http 403 | http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+74,AM Tech Distributor LLC,Florida,https://amtechdistributor.com,only_junk_or_template_candidates,,2,reject,Ignore extracted candidates; use external lookup only.
+79,South Florida Signage,Florida,https://www.southfloridasignage.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+83,Tampa Sign Company,Florida,https://www.tampasigncompany.net,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+86,Orlando Sign Company,Florida,https://www.orlandosigncompany.org,only_junk_or_template_candidates,,1,reject,Ignore extracted candidates; use external lookup only.
+87,Visual Signs and Graphics,Florida,https://visualsignsandgraphics.com,blocked_403_external_lookup_needed,http 403 | http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+93,Fort Lauderdale Sign Company (Bebold Sign Studio),Florida,https://www.fortlauderdalesigncompany.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+104,Fortuna Visual Group,New York,https://fortunavisual.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+108,Ulrich Signs,New York,https://ulrichsigns.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+112,Tecboy Labs,New York,https://tecboylabs.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+113,Lindenmeyr Munroe,New York,https://www.lindenmeyrmunroe.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+115,Create Cut Invent,Illinois,https://createcutinvent.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+116,Ace Laser Tek,Illinois,https://acelasertek.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+123,FASTSIGNS of Naperville,Illinois,https://www.fastsigns.com/naperville-il,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+124,Parvin-Clauss Sign Company,Illinois,https://www.parvinclauss.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+127,Captivating Signs,Illinois,https://www.captivatingsigns.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+130,Rastermark,Pennsylvania,https://www.rastermark.com/,ssl_problem_external_lookup_needed,url error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000),0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+133,Lens Laser LLC,Pennsylvania,https://lenslaserpgh.com/,only_junk_or_template_candidates,,2,reject,Ignore extracted candidates; use external lookup only.
+142,Philadelphia Signs & Awnings,Pennsylvania,https://signsphiladelphia.com/,manual_source_check_remaining,http 404,1,manual,Open source URL and inspect candidate context manually.
+143,FASTSIGNS - Northeast Philadelphia,Pennsylvania,https://www.fastsigns.com/northeast-philadelphia-pa/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+144,Precision Sign & Awning,Pennsylvania,https://www.precisionsignandawning.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+152,Tom's Custom Guns,Ohio,https://tomscustomguns.com/,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+169,Savannah Laser Company,Georgia,https://savannahlasercompany.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+170,Signs Atlanta,Georgia,https://www.signsatlanta.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+176,AKO Signs,Georgia,https://akosigns.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+185,West Michigan Cerakote & Laser,Michigan,https://www.westmicerakote.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+187,DB Graphics A2,Michigan,https://dbgraphicsa2.com/laser-engraving,manual_source_check_remaining,,1,manual,Open source URL and inspect candidate context manually.
+188,Awards Plus Laser Engraving,Michigan,https://www.awardsplusmi.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+192,Icon Sign & Design,Michigan,https://iconsignservice.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+194,FASTSIGNS of Grand Rapids,Michigan,https://www.fastsigns.com/grand-rapids-mi/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+211,Carolina Signs & Wonders,North Carolina,https://www.carolinasignage.com,only_junk_or_template_candidates,,1,reject,Ignore extracted candidates; use external lookup only.
+215,Bull City Signs,North Carolina,https://bullcitysigns.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+217,FASTSIGNS of Durham,North Carolina,https://www.fastsigns.com/durham-nc/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+219,Signarama Raleigh West/RTP,North Carolina,https://signarama.com/locations/nc-raleigh-west-rtp,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+220,Sign Edge Custom Signs,North Carolina,https://signedgenc.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+221,Rastermark (Ketchem Sales),Virginia,https://www.rastermark.com,ssl_problem_external_lookup_needed,url error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000),0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+228,Laser Engraving Pros,Virginia,https://lazerengravingpros.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+231,Richmond Sign Company (Converge Signs+),Virginia,https://www.richmondsigncompany.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+234,Cardinal Sign Corporation,Virginia,https://cardinalsign.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+237,Engravica,New Jersey,https://www.engravica.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+239,Foster Engraving & Laser Co.,New Jersey,http://fosterengraving.net/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+242,Trophies Unlimited,New Jersey,https://www.trophiesunlimited.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+243,Jersey Laser Craft,New Jersey,https://www.jerseylasercraft.com/,dead_dns_external_lookup_needed,url error [Errno -2] Name or service not known,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+254,Baltimore Signs & Graphics,Maryland,https://baltimoresignsandgraphics.com/,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+257,Rockville Sign Company,Maryland,https://rockvillesigncompany.com/,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+259,Signarama Rockville,Maryland,https://signarama.com/locations/md-rockville,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+263,Signarama Silver Spring,Maryland,https://signarama.com/locations/md-silver-spring,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+264,Accolades Laser Engraving,Maryland,https://aleawards.com/,manual_source_check_remaining,,3,manual; reject,Open source URL and inspect candidate context manually.
+265,Signarama Gaithersburg,Maryland,https://signarama.com/locations/md-gaithersburg,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+268,Focused Laser Solutions,Massachusetts,https://www.focusedlaser.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+269,Boston Digital Fabrication,Massachusetts,https://bostondigitalfab.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+271,Hanks Engraving,Massachusetts,https://www.hanksengraving.net,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+276,Boston Lasers,Massachusetts,https://bostonlasers.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+277,Excell Solutions,Massachusetts,https://www.excellsol.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+281,Boston Signs & Wraps,Massachusetts,https://www.bostonsignsandwraps.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+282,"FASTSIGNS of Quincy, MA",Massachusetts,https://www.fastsigns.com/quincy-ma,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+285,Signarama Worcester,Massachusetts,https://signarama.com/locations/ma-worcester,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+286,Yellow Circle Signs,Massachusetts,https://yellowcirclesigns.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+287,Northeast Engravers Supply,Massachusetts,https://www.neslasersolutions.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+290,PNW Lasers,Washington,https://pnwlasers.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+292,Spokane Gifts,Washington,https://spokanegifts.com/,not_found_external_lookup_needed,http 404,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+293,Cascade Signs and Graphics,Washington,https://www.bellevuesigncompany.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+297,FASTSIGNS of Seattle - Queen Anne,Washington,https://www.fastsigns.com/seattle-wa-queen-anne/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+298,FASTSIGNS of North Seattle,Washington,https://www.fastsigns.com/north-seattle-wa/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+300,FASTSIGNS of Burien-West Seattle,Washington,https://www.fastsigns.com/west-seattle-wa/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+301,FASTSIGNS of Silverdale,Washington,https://www.fastsigns.com/silverdale-wa/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+304,Spokane Signs and Decals,Washington,https://www.spokanesignsanddecals.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+305,Crossroad Sign Studio,Washington,https://crossroadsign.com/washington-sign-company/bellevue-sign-company/,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+309,Simchuks Laser Engraving,Washington,https://www.simchuklaser.com/,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+320,Prescott Trade Shop,Arizona,https://prescotttradeshop.com,only_junk_or_template_candidates,,1,reject,Ignore extracted candidates; use external lookup only.
+321,AZ Logo Laser,Arizona,https://azlogolaser.com,no_email_found_on_site,RemoteDisconnected: Remote end closed connection without response,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+322,Territorial Sign Company,Arizona,https://www.territorialsignco.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+327,Graphic Impact,Arizona,https://graphic-impact.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+329,Signarama Tucson,Arizona,https://signarama.com/locations/az-tucson,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+330,Arizona Commercial Signs,Arizona,https://arizonacommercialsigns.com,not_found_external_lookup_needed,http 404,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+342,Landace Engraving Company,Colorado,https://landacecompany.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+343,RMI Laser,Colorado,https://rmilaser.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+344,Krystola Laser Engraving,Colorado,https://krystolale.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+347,Artcraft Sign Company,Colorado,https://artcraftsign.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+348,303 Sign Company,Colorado,https://303signcompany.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+349,Dun-Rite Signs,Colorado,https://dunritesigns.com,ssl_problem_external_lookup_needed,url error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000),0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+355,Midsouth Laser Engraving,Tennessee,https://www.midsouthlaserengraving.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+361,Mercury Engraving LLC,Tennessee,https://www.mercuryengraving.com,connection_problem_retry_or_external_lookup,url error timed out,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+365,Memphis Custom Signs,Tennessee,https://www.memphiscustomsigns.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+367,Franklin Sign Company,Tennessee,https://franklinsignco.com,manual_source_check_remaining,,1,manual,Open source URL and inspect candidate context manually.
+369,FreshCutDesign,Tennessee,https://freshcutdesign.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+380,Royal Awards,Oregon,https://www.royal-awards.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+384,"Architectural Metalcrafters, Inc.",Oregon,https://amcrafters.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+388,Portland Sign Co,Oregon,https://portlandsignco.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+392,Precision Sign & Graphics,Utah,https://www.precisionsignsutah.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+399,Stylish Engraving,Utah,https://stylishengraving.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+402,Endurance Laserworks,Utah,https://endurancelaserworks.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+403,MD Custom Engraving,Utah,https://customengravingogden.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+405,Sweenks Laser Engraving,Utah,https://sweenks.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+415,Sunny Side Ink,Nevada,https://sunnysideink.com,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+416,Las Vegas Custom Signs,Nevada,https://lasvegascustomsigns.com,blocked_403_external_lookup_needed,http 403,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+423,CalNeva Sign Company,Nevada,https://www.calnevasigncompany.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+435,Custom Sign & Engineering Inc,Indiana,https://www.customsign.bz/,not_found_external_lookup_needed,http 404,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+452,Minneapolis Sign Company,Minnesota,https://www.minneapolissigncompany.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+456,Cutting Edge Engraving Arts,Iowa,https://cuttingedgeengravingarts.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+471,Peak Engraving,Nebraska,https://www.peakomaha.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+474,Squared Away Laser Engraving,Nebraska,https://squaredawaylaserengraving.com/Default.asp,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+475,MD Engraving,South Dakota,https://www.mdengravinggifts.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+477,Sand Scripts,South Dakota,https://www.sandscriptsusa.com/,only_junk_or_template_candidates,,1,reject,Ignore extracted candidates; use external lookup only.
+482,Dakota Awards,North Dakota,https://www.dakawards.com/mobile/fullsite.php?FS=true,connection_problem_retry_or_external_lookup,url error timed out,0,,Use browser/search/alternate sources; same-site crawler could not access reliable page.
+494,Montana Laser,Montana,https://montanalaserengraving.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+495,Double G Engraving,Montana,https://www.doublegengraving.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+500,Little Shop of Laser,Idaho,https://www.littleshopoflaser.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+509,Easyl Engraving,Alabama,https://easylengraving.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+517,CT Laser & Engraving,Connecticut,https://www.ctpartmarking.com/services,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+518,Pauway Corp.,Connecticut,https://www.pauwaycorp.com/laser-marking-a-engraving.html,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+521,Insta Signs Plus,Delaware,https://instasignsplus.com/engraving/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+522,Maui Engraving,Hawaii,http://www.mauiengraving.com/,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.
+526,Trinity Graphx Signs,Louisiana,https://www.trinitygraphx.com/laser-printing,no_email_found_on_site,,0,,Check Google/Maps/Facebook/LinkedIn/Secretary-of-State; mark contact-form-only if none.

@@ -94,6 +94,21 @@ body {
     border-color: #64748b;
 }
 
+.hidden-flag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fde68a;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
 /* Main */
 .main {
     padding: 32px 0;

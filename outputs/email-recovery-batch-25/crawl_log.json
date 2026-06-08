@@ -1,0 +1,26 @@
+[
+  {
+    "id": 8,
+    "company": "Universal Marking, Inc.",
+    "url": "https://www.laserengravingservices.net/los-angeles-california-etching-marking",
+    "status": "url error [Errno -2] Name or service not known"
+  },
+  {
+    "id": 22,
+    "company": "Laser Engraver OC",
+    "url": "http://www.laserengraveroc.com/",
+    "status": "url error [Errno -2] Name or service not known"
+  },
+  {
+    "id": 40,
+    "company": "DFW Custom Engraving",
+    "url": "https://dfwcustomengraving.com/",
+    "status": "url error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+  },
+  {
+    "id": 47,
+    "company": "Los Angeles Sign Company",
+    "url": "https://losangelesigncompany.com",
+    "status": "http 403"
+  }
+]

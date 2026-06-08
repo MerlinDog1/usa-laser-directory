@@ -85,10 +85,9 @@ class BusinessDirectory {
             hasEmail.addEventListener('change', () => this.filter());
         }
 
-        // Third toggle kept for compatibility; currently mirrors has email
-        const wayfindingOnly = document.getElementById('wayfindingOnly');
-        if (wayfindingOnly) {
-            wayfindingOnly.addEventListener('change', () => this.filter());
+        const showHidden = document.getElementById('showHidden');
+        if (showHidden) {
+            showHidden.addEventListener('change', () => this.filter());
         }
         
         // Reset
@@ -130,7 +129,7 @@ class BusinessDirectory {
             const dataFile = document.body?.dataset?.dataFile || 'data/directory-data.json';
             const response = await fetch(dataFile);
             this.businesses = await response.json();
-            this.filteredBusinesses = [...this.businesses];
+            this.filteredBusinesses = this.businesses.filter(b => this.isPublicBusiness(b));
         } catch (error) {
             console.error('Error loading data:', error);
             this.loading.innerHTML = '<p>Error loading directory data. Please refresh.</p>';
@@ -178,9 +177,11 @@ class BusinessDirectory {
         const county = this.countyFilter.value;
         const distributorOnly = document.getElementById('plaquesOnly')?.checked || false;
         const hasEmailOnly = document.getElementById('hasEmail')?.checked || false;
-        const instagramOnly = document.getElementById('wayfindingOnly')?.checked || false;
+        const showHidden = document.getElementById('showHidden')?.checked || false;
         
         this.filteredBusinesses = this.businesses.filter(business => {
+            const matchesPublication = showHidden || this.isPublicBusiness(business);
+
             // Search filter
             const matchesSearch = !searchTerm || 
                 (business.company && business.company.toLowerCase().includes(searchTerm)) ||
@@ -201,12 +202,9 @@ class BusinessDirectory {
             const matchesDistributor = !distributorOnly || business.category === 'Distributor';
             
             // Has email filter
-            const matchesEmail = !hasEmailOnly || (business.email && business.email.trim() !== '');
-
-            // Instagram filter
-            const matchesInstagram = !instagramOnly || (business.instagram && business.instagram.trim() !== '');
+            const matchesEmail = !hasEmailOnly || this.hasValidEmail(business);
             
-            return matchesSearch && matchesCategory && matchesCounty && matchesDistributor && matchesEmail && matchesInstagram;
+            return matchesPublication && matchesSearch && matchesCategory && matchesCounty && matchesDistributor && matchesEmail;
         });
         
         this.sort();
@@ -259,11 +257,11 @@ class BusinessDirectory {
         if (plaquesOnly) plaquesOnly.checked = false;
         const hasEmail = document.getElementById('hasEmail');
         if (hasEmail) hasEmail.checked = false;
-        const wayfindingOnly = document.getElementById('wayfindingOnly');
-        if (wayfindingOnly) wayfindingOnly.checked = false;
+        const showHidden = document.getElementById('showHidden');
+        if (showHidden) showHidden.checked = false;
         this.clearCategories();
         this.deselectAll();
-        this.filteredBusinesses = [...this.businesses];
+        this.filteredBusinesses = this.businesses.filter(b => this.isPublicBusiness(b));
         this.sort();
         this.render();
     }
@@ -368,7 +366,7 @@ class BusinessDirectory {
         
         if (selected.length === 0) return;
         
-        const headers = ['Company', 'Website', 'Email', 'LinkedIn', 'Instagram', 'Phone', 'Address', 'State', 'Category', 'Main Brand', 'Quality'];
+        const headers = ['Company', 'Website', 'Email', 'LinkedIn', 'Instagram', 'Phone', 'Address', 'State', 'Category', 'Main Brand', 'Quality', 'Publication Status', 'Contact Status'];
         const rows = selected.map(b => [
             String(b.company || ''),
             String(b.website || ''),
@@ -380,7 +378,9 @@ class BusinessDirectory {
             String(b.county || b.state || ''),
             String(b.category || ''),
             String(b.mainBrand || ''),
-            String(b.quality || 0)
+            String(b.quality || 0),
+            String(b.publicationStatus || ''),
+            String(b.contactStatus || '')
         ]);
         
         const csvContent = [
@@ -507,7 +507,10 @@ class BusinessDirectory {
         const brandFlag = business.mainBrand
             ? `<span class="wayfinding-flag" title="Main represented brand">🏷️ ${this.escapeHtml(business.mainBrand)}</span>`
             : '';
-        if (business.email) links.push(this.createLinkHTML(`mailto:${business.email}`, 'Email', 'mail'));
+        const hiddenFlag = this.isPublicBusiness(business)
+            ? ''
+            : `<span class="hidden-flag" title="Hidden from public view">${this.escapeHtml(this.formatStatus(business.contactStatus || 'hidden'))}</span>`;
+        if (this.hasValidEmail(business)) links.push(this.createLinkHTML(`mailto:${business.email}`, 'Email', 'mail'));
         if (business.linkedin) links.push(this.createLinkHTML(business.linkedin, 'LinkedIn', 'linkedin'));
         if (business.instagram) links.push(this.createLinkHTML(business.instagram, 'Instagram', 'instagram'));
         
@@ -522,6 +525,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                         ${brandFlag}
+                        ${hiddenFlag}
                     </div>
                 </div>
                 <p class="card-county">📍 ${this.escapeHtml(business.county || business.state || '')}</p>
@@ -544,7 +548,10 @@ class BusinessDirectory {
         const brandFlag = business.mainBrand
             ? `<span class="wayfinding-flag" title="Main represented brand">🏷️ ${this.escapeHtml(business.mainBrand)}</span>`
             : '';
-        if (business.email) links.push(`<a href="mailto:${business.email}" class="card-link">✉️ Email</a>`);
+        const hiddenFlag = this.isPublicBusiness(business)
+            ? ''
+            : `<span class="hidden-flag" title="Hidden from public view">${this.escapeHtml(this.formatStatus(business.contactStatus || 'hidden'))}</span>`;
+        if (this.hasValidEmail(business)) links.push(`<a href="mailto:${business.email}" class="card-link">✉️ Email</a>`);
         if (business.linkedin) links.push(`<a href="${business.linkedin}" target="_blank" class="card-link">💼 LinkedIn</a>`);
         if (business.instagram) links.push(`<a href="${business.instagram}" target="_blank" class="card-link">📷 Instagram</a>`);
         
@@ -559,6 +566,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                         ${brandFlag}
+                        ${hiddenFlag}
                         <span class="card-county">${this.escapeHtml(business.county || business.state || '')}</span>
                     </div>
                     <div class="card-links">${links.join('')}</div>
@@ -579,6 +587,20 @@ class BusinessDirectory {
             facebook: '👤'
         };
         return `<a href="${url}" target="_blank" class="card-link">${icons[icon]} ${label}</a>`;
+    }
+
+    hasValidEmail(business) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(business.email || '').trim());
+    }
+
+    isPublicBusiness(business) {
+        return business.publicationStatus !== 'hidden' && this.hasValidEmail(business);
+    }
+
+    formatStatus(status) {
+        return String(status || '')
+            .replace(/_/g, ' ')
+            .replace(/\b\w/g, char => char.toUpperCase());
     }
     
     getCategoryClass(category) {

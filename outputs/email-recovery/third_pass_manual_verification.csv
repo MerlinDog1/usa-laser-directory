@@ -1,0 +1,17 @@
+id,company,state,website,candidate_email,source_url,decision,reason,applied,current_email
+148,Cleveland Laser Engraving,Ohio,https://engravecle.com/,laserengravingcle@gmail.com,https://engravecle.com/pages/contact,accept,visible contact block: Ordering Bulk,yes,laserengravingcle@gmail.com
+186,Michigan Laser Engraving,Michigan,https://milaserengraving.com/,impallari@gmail.com,https://milaserengraving.com/hours-contact-us,skip,font license author; row already has better email,no,michiganlaserengraving@gmail.com
+187,DB Graphics A2,Michigan,https://dbgraphicsa2.com/laser-engraving,impallari@gmail.com,https://dbgraphicsa2.com/contact-us,reject,font license author,no,
+244,Prestige Laser Engraving,New Jersey,https://prestigelaserengraving.com/,agustinamingote@gmail.com,https://prestigelaserengraving.com/contact,skip,font license author; row already has better email,no,prestigelaserengraving@hotmail.com
+264,Accolades Laser Engraving,Maryland,https://aleawards.com/,impallari@gmail.com,https://aleawards.com/,reject,font license author,no,
+280,Boston Plaques Company,Massachusetts,https://www.bostonplaques.com,sales@signs.boston,https://www.bostonplaques.com,accept,mailto contact email on company page,yes,sales@signs.boston
+367,Franklin Sign Company,Tennessee,https://franklinsignco.com,wweeiihhuuaanngg@gmail.com,https://franklinsignco.com/contact-us-1,reject,font license author,no,
+395,Salt Lake City Sign Company,Utah,https://www.saltlakecitysigncompany.com,corbin@visibilitysign.com,https://saltlakecitysigncompany.com/contact-us/,accept,LocalBusiness contactPoint email,yes,corbin@visibilitysign.com
+407,High Value Trophy,Utah,https://www.highvaluetrophy.com,sales@highvalue.us,https://www.highvaluetrophy.com,accept,contact block mailto email,yes,sales@highvalue.us
+461,Lazerworx Design Studio,Kansas,https://lazerworx.com/,support@wichitagiftco.com,https://lazerworx.com/,skip,Shopify theme/beacon email; row already has better email,no,wichitagiftco@gmail.com
+504,Custom Den,Idaho,https://customden.com/,customdencda@gmail.com,https://customden.com/pages/contact,accept,contact page meta description email,yes,customdencda@gmail.com
+56,Signs Now Sacramento,California,https://www.signsnow.com/sacramento,sn43@signsnowsac.com,https://www.signsnow.com/sacramento,skip,structured location email; row already has better email,no,downtown@signsnowsac.com
+78,Miami Sign and Wraps,Florida,https://miamisignandwraps.com,tony@majorleaguesigns.com,https://miamisignandwraps.com/contact-us/,skip,candidate not present on refetched contact page; row already has better email,no,info@majorleaguesigns.com
+81,Orlando Laser Engraving,Florida,https://www.orlandolaserengraving.com,sales@comengravingshop.com,https://www.orlandolaserengraving.com/contact.html,accept,visible email in contact page contact section,yes,sales@comengravingshop.com
+85,Amazing Sign LLC,Florida,https://amazingsignllc.com,information@amazingsigns.net,https://amazingsignllc.com/contact-us/,accept,LocalBusiness email in contact page schema,yes,information@amazingsigns.net
+99,SB Laser Engraving,New York,https://sblaserengraving.com,sblaserengravingllc@gmail.com,https://sblaserengraving.com/contact-us/,accept,visible email in contact page contact section,yes,sblaserengravingllc@gmail.com
