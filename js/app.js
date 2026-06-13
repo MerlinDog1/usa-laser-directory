@@ -1,4 +1,4 @@
-// USA Laser Engraving Directory - Main Application
+// North America Laser Engraving Directory - Main Application
 
 class BusinessDirectory {
     constructor() {
@@ -366,7 +366,7 @@ class BusinessDirectory {
         
         if (selected.length === 0) return;
         
-        const headers = ['Company', 'Website', 'Email', 'LinkedIn', 'Instagram', 'Phone', 'Address', 'State', 'Category', 'Main Brand', 'Quality', 'Publication Status', 'Contact Status'];
+        const headers = ['Company', 'Website', 'Email', 'LinkedIn', 'Instagram', 'Phone', 'Address', 'State / Province', 'Category', 'Main Brand', 'Quality', 'Publication Status', 'Contact Status'];
         const rows = selected.map(b => [
             String(b.company || ''),
             String(b.website || ''),
@@ -391,7 +391,7 @@ class BusinessDirectory {
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = `usa-laser-directory-${new Date().toISOString().split('T')[0]}.csv`;
+        link.download = `north-america-laser-directory-${new Date().toISOString().split('T')[0]}.csv`;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -401,6 +401,56 @@ class BusinessDirectory {
     renderMap() {
         // County coordinates (approximate centers)
         const countyCoords = {
+            'Alabama': [32.8067, -86.7911],
+            'Alaska': [61.3707, -152.4044],
+            'Arizona': [33.7298, -111.4312],
+            'Arkansas': [34.9697, -92.3731],
+            'California': [36.1162, -119.6816],
+            'Colorado': [39.0598, -105.3111],
+            'Connecticut': [41.5978, -72.7554],
+            'Delaware': [39.3185, -75.5071],
+            'Florida': [27.7663, -81.6868],
+            'Georgia': [33.0406, -83.6431],
+            'Hawaii': [21.0943, -157.4983],
+            'Idaho': [44.2405, -114.4788],
+            'Illinois': [40.3495, -88.9861],
+            'Indiana': [39.8494, -86.2583],
+            'Iowa': [42.0115, -93.2105],
+            'Kansas': [38.5266, -96.7265],
+            'Kentucky': [37.6681, -84.6701],
+            'Louisiana': [31.1695, -91.8678],
+            'Maine': [44.6939, -69.3819],
+            'Maryland': [39.0639, -76.8021],
+            'Massachusetts': [42.2302, -71.5301],
+            'Michigan': [43.3266, -84.5361],
+            'Minnesota': [45.6945, -93.9002],
+            'Mississippi': [32.7416, -89.6787],
+            'Missouri': [38.4561, -92.2884],
+            'Montana': [46.9219, -110.4544],
+            'Nebraska': [41.1254, -98.2681],
+            'Nevada': [38.3135, -117.0554],
+            'New Hampshire': [43.4525, -71.5639],
+            'New Jersey': [40.2989, -74.5210],
+            'New Mexico': [34.8405, -106.2485],
+            'New York': [42.1657, -74.9481],
+            'North Carolina': [35.6301, -79.8064],
+            'North Dakota': [47.5289, -99.7840],
+            'Ohio': [40.3888, -82.7649],
+            'Oklahoma': [35.5653, -96.9289],
+            'Oregon': [44.5720, -122.0709],
+            'Pennsylvania': [40.5908, -77.2098],
+            'Rhode Island': [41.6809, -71.5118],
+            'South Carolina': [33.8569, -80.9450],
+            'South Dakota': [44.2998, -99.4388],
+            'Tennessee': [35.7478, -86.6923],
+            'Texas': [31.0545, -97.5635],
+            'Utah': [40.1500, -111.8624],
+            'Vermont': [44.0459, -72.7107],
+            'Virginia': [37.7693, -78.1700],
+            'Washington': [47.4009, -121.4905],
+            'West Virginia': [38.4912, -80.9545],
+            'Wisconsin': [44.2685, -89.6165],
+            'Wyoming': [42.7560, -107.3025],
             'Greater London': [51.5074, -0.1278],
             'Greater Manchester': [53.4808, -2.2426],
             'West Midlands': [52.4862, -1.8904],
@@ -455,11 +505,18 @@ class BusinessDirectory {
             'Sweden': [60.1282, 18.6435],
             'Norway': [60.4720, 8.4689],
             'Finland': [61.9241, 25.7482],
-            'Unidentified': [54.0, -2.0],
+            'Ontario': [50.0000, -85.0000],
+            'British Columbia': [53.7267, -127.6476],
+            'Alberta': [53.9333, -116.5765],
+            'Quebec': [52.9399, -73.5491],
+            'Manitoba': [53.7609, -98.8139],
+            'Saskatchewan': [52.9399, -106.4509],
+            'Nova Scotia': [44.6820, -63.7443],
+            'Unidentified': [39.5, -98.35],
         };
         
         if (!this.map) {
-            this.map = L.map('map').setView([53.5, -2.0], 6);
+            this.map = L.map('map').setView([43.5, -95.0], 4);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors'
             }).addTo(this.map);

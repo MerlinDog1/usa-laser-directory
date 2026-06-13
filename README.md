@@ -1,6 +1,6 @@
-# USA Laser Engraving Directory
+# North America Laser Engraving Directory
 
-A searchable, filterable directory of USA laser engraving companies and laser equipment / consumable distributors, organized state by state.
+A searchable, filterable directory of USA and Canadian laser engraving companies, sign companies, and laser equipment / consumable distributors, organized by state/province.
 
 ## Scope
 
@@ -16,7 +16,7 @@ For distributors, we also aim to capture the **main represented brand** where id
 Each entry should include where possible:
 
 - Company name
-- State
+- State / province
 - Category (`Engraver` or `Distributor`)
 - Main represented brand (for distributors)
 - Website
@@ -30,14 +30,14 @@ Each entry should include where possible:
 
 ## Workflow
 
-State-by-state workflow:
+Region-by-region workflow:
 
-1. Research one state at a time
+1. Research one state or province at a time
 2. Collect candidates and dedupe carefully
 3. Manually verify before integration
 4. Append to `data/directory-data.json`
 5. Update `data/metadata.json`
-6. Commit + push after each state
+6. Commit + push after each verified batch
 
 ## Running locally
 

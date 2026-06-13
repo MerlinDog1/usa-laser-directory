@@ -1,0 +1,26 @@
+[
+  {
+    "id": 630,
+    "company": "The Engraving Studio",
+    "url": "https://engravingstudio.ca/",
+    "status": "url error [Errno -3] Temporary failure in name resolution"
+  },
+  {
+    "id": 631,
+    "company": "Trophy Centre",
+    "url": "https://trophycentre.ca/",
+    "status": "TimeoutError: The read operation timed out"
+  },
+  {
+    "id": 641,
+    "company": "Gravure Laser",
+    "url": "https://gravurelaser.ca/contact",
+    "status": "url error _ssl.c:983: The handshake operation timed out"
+  },
+  {
+    "id": 641,
+    "company": "Gravure Laser",
+    "url": "https://gravurelaser.ca/en/laser-printing-services",
+    "status": "url error _ssl.c:983: The handshake operation timed out"
+  }
+]
