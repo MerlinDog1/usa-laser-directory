@@ -1,9 +1,14 @@
 {
-  "count": 650,
+  "count": 672,
   "categories": [
     "Distributor",
     "Engraver",
     "Sign Company"
+  ],
+  "countries": [
+    "Australia",
+    "Canada",
+    "USA"
   ],
   "states": [
     "Alabama",
@@ -37,12 +42,16 @@
     "Montana",
     "Nebraska",
     "Nevada",
+    "New Brunswick",
     "New Hampshire",
     "New Jersey",
     "New Mexico",
+    "New South Wales",
     "New York",
+    "Newfoundland and Labrador",
     "North Carolina",
     "North Dakota",
+    "Northern Territory",
     "Nova Scotia",
     "Ohio",
     "Oklahoma",
@@ -50,17 +59,21 @@
     "Oregon",
     "Pennsylvania",
     "Quebec",
+    "Queensland",
     "Rhode Island",
     "Saskatchewan",
+    "South Australia",
     "South Carolina",
     "South Dakota",
     "Tennessee",
     "Texas",
     "Utah",
     "Vermont",
+    "Victoria",
     "Virginia",
     "Washington",
     "West Virginia",
+    "Western Australia",
     "Wisconsin",
     "Wyoming"
   ]

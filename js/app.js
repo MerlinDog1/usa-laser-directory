@@ -1,4 +1,4 @@
-// North America Laser Engraving Directory - Main Application
+// International Laser Engraving Directory - Main Application
 
 class BusinessDirectory {
     constructor() {
@@ -14,6 +14,7 @@ class BusinessDirectory {
         this.searchInput = document.getElementById('searchInput');
         this.clearSearchBtn = document.getElementById('clearSearch');
         this.categoryCheckboxes = document.getElementById('categoryCheckboxes');
+        this.countryFilter = document.getElementById('countryFilter');
         this.countyFilter = document.getElementById('countyFilter');
         this.sortBy = document.getElementById('sortBy');
         this.resetFiltersBtn = document.getElementById('resetFilters');
@@ -63,6 +64,12 @@ class BusinessDirectory {
         }
         
         // Filters
+        if (this.countryFilter) {
+            this.countryFilter.addEventListener('change', () => {
+                this.populateRegionFilter();
+                this.filter();
+            });
+        }
         if (this.countyFilter) {
             this.countyFilter.addEventListener('change', () => this.filter());
         }
@@ -160,20 +167,40 @@ class BusinessDirectory {
     }
     
     populateFilters() {
-        // Get unique counties
-        const counties = [...new Set(this.businesses.map(b => b.county))].sort();
-        
-        // Populate county filter
-        counties.forEach(county => {
+        const countries = [...new Set(this.businesses.map(b => b.country || this.inferCountry(b)).filter(Boolean))].sort();
+
+        countries.forEach(country => {
             const option = document.createElement('option');
-            option.value = county;
-            option.textContent = county;
+            option.value = country;
+            option.textContent = country;
+            this.countryFilter.appendChild(option);
+        });
+
+        this.populateRegionFilter();
+    }
+
+    populateRegionFilter() {
+        const selectedCountry = this.countryFilter?.value || '';
+        const currentRegion = this.countyFilter?.value || '';
+        const regions = [...new Set(this.businesses
+            .filter(b => !selectedCountry || (b.country || this.inferCountry(b)) === selectedCountry)
+            .map(b => b.county || b.state)
+            .filter(Boolean)
+        )].sort();
+
+        this.countyFilter.innerHTML = '<option value="">All States / Provinces</option>';
+        regions.forEach(region => {
+            const option = document.createElement('option');
+            option.value = region;
+            option.textContent = region;
             this.countyFilter.appendChild(option);
         });
+        this.countyFilter.value = regions.includes(currentRegion) ? currentRegion : '';
     }
     
     filter() {
         const searchTerm = this.searchInput.value.toLowerCase().trim();
+        const country = this.countryFilter?.value || '';
         const county = this.countyFilter.value;
         const distributorOnly = document.getElementById('plaquesOnly')?.checked || false;
         const hasEmailOnly = document.getElementById('hasEmail')?.checked || false;
@@ -186,6 +213,7 @@ class BusinessDirectory {
             const matchesSearch = !searchTerm || 
                 (business.company && business.company.toLowerCase().includes(searchTerm)) ||
                 (business.address && business.address.toLowerCase().includes(searchTerm)) ||
+                ((business.country || this.inferCountry(business)) && (business.country || this.inferCountry(business)).toLowerCase().includes(searchTerm)) ||
                 (business.county && business.county.toLowerCase().includes(searchTerm)) ||
                 (business.category && business.category.toLowerCase().includes(searchTerm)) ||
                 (business.email && business.email.toLowerCase().includes(searchTerm)) ||
@@ -195,7 +223,8 @@ class BusinessDirectory {
             const matchesCategory = this.selectedCategories.size === 0 || 
                 this.selectedCategories.has(business.category);
             
-            // County filter
+            // Region filters
+            const matchesCountry = !country || (business.country || this.inferCountry(business)) === country;
             const matchesCounty = !county || business.county === county;
             
             // Distributor filter
@@ -204,7 +233,7 @@ class BusinessDirectory {
             // Has email filter
             const matchesEmail = !hasEmailOnly || this.hasValidEmail(business);
             
-            return matchesPublication && matchesSearch && matchesCategory && matchesCounty && matchesDistributor && matchesEmail;
+            return matchesPublication && matchesSearch && matchesCategory && matchesCountry && matchesCounty && matchesDistributor && matchesEmail;
         });
         
         this.sort();
@@ -251,6 +280,8 @@ class BusinessDirectory {
     resetFilters() {
         this.searchInput.value = '';
         this.clearSearchBtn.style.display = 'none';
+        if (this.countryFilter) this.countryFilter.value = '';
+        this.populateRegionFilter();
         this.countyFilter.value = '';
         this.sortBy.value = 'name-asc';
         const plaquesOnly = document.getElementById('plaquesOnly');
@@ -366,7 +397,7 @@ class BusinessDirectory {
         
         if (selected.length === 0) return;
         
-        const headers = ['Company', 'Website', 'Email', 'LinkedIn', 'Instagram', 'Phone', 'Address', 'State / Province', 'Category', 'Main Brand', 'Quality', 'Publication Status', 'Contact Status'];
+        const headers = ['Company', 'Website', 'Email', 'LinkedIn', 'Instagram', 'Phone', 'Address', 'Country', 'State / Province', 'Category', 'Main Brand', 'Quality', 'Publication Status', 'Contact Status'];
         const rows = selected.map(b => [
             String(b.company || ''),
             String(b.website || ''),
@@ -375,6 +406,7 @@ class BusinessDirectory {
             String(b.instagram || ''),
             String(b.phone || ''),
             String(b.address || ''),
+            String(b.country || this.inferCountry(b) || ''),
             String(b.county || b.state || ''),
             String(b.category || ''),
             String(b.mainBrand || ''),
@@ -391,7 +423,7 @@ class BusinessDirectory {
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = `north-america-laser-directory-${new Date().toISOString().split('T')[0]}.csv`;
+        link.download = `international-laser-directory-${new Date().toISOString().split('T')[0]}.csv`;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -512,11 +544,25 @@ class BusinessDirectory {
             'Manitoba': [53.7609, -98.8139],
             'Saskatchewan': [52.9399, -106.4509],
             'Nova Scotia': [44.6820, -63.7443],
+            'New Brunswick': [46.5653, -66.4619],
+            'Newfoundland and Labrador': [53.1355, -57.6604],
+            'Prince Edward Island': [46.5107, -63.4168],
+            'Yukon': [64.2823, -135.0000],
+            'Northwest Territories': [64.8255, -124.8457],
+            'Nunavut': [70.2998, -83.1076],
+            'New South Wales': [-31.2532, 146.9211],
+            'Victoria': [-37.4713, 144.7852],
+            'Queensland': [-20.9176, 142.7028],
+            'Western Australia': [-27.6728, 121.6283],
+            'South Australia': [-30.0002, 136.2092],
+            'Tasmania': [-42.0409, 146.8087],
+            'Northern Territory': [-19.4914, 132.5510],
+            'Australian Capital Territory': [-35.4735, 149.0124],
             'Unidentified': [39.5, -98.35],
         };
         
         if (!this.map) {
-            this.map = L.map('map').setView([43.5, -95.0], 4);
+            this.map = L.map('map').setView([15, -95.0], 2);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors'
             }).addTo(this.map);
@@ -564,6 +610,7 @@ class BusinessDirectory {
         const brandFlag = business.mainBrand
             ? `<span class="wayfinding-flag" title="Main represented brand">🏷️ ${this.escapeHtml(business.mainBrand)}</span>`
             : '';
+        const countryFlag = `<span class="wayfinding-flag" title="Country">${this.escapeHtml(business.country || this.inferCountry(business) || '')}</span>`;
         const hiddenFlag = this.isPublicBusiness(business)
             ? ''
             : `<span class="hidden-flag" title="Hidden from public view">${this.escapeHtml(this.formatStatus(business.contactStatus || 'hidden'))}</span>`;
@@ -582,6 +629,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                         ${brandFlag}
+                        ${countryFlag}
                         ${hiddenFlag}
                     </div>
                 </div>
@@ -605,6 +653,7 @@ class BusinessDirectory {
         const brandFlag = business.mainBrand
             ? `<span class="wayfinding-flag" title="Main represented brand">🏷️ ${this.escapeHtml(business.mainBrand)}</span>`
             : '';
+        const countryFlag = `<span class="wayfinding-flag" title="Country">${this.escapeHtml(business.country || this.inferCountry(business) || '')}</span>`;
         const hiddenFlag = this.isPublicBusiness(business)
             ? ''
             : `<span class="hidden-flag" title="Hidden from public view">${this.escapeHtml(this.formatStatus(business.contactStatus || 'hidden'))}</span>`;
@@ -623,6 +672,7 @@ class BusinessDirectory {
                         <h3 class="card-title">${this.escapeHtml(business.company)}</h3>
                         <span class="card-category ${categoryClass}">${this.escapeHtml(business.category)}</span>
                         ${brandFlag}
+                        ${countryFlag}
                         ${hiddenFlag}
                         <span class="card-county">${this.escapeHtml(business.county || business.state || '')}</span>
                     </div>
@@ -651,7 +701,16 @@ class BusinessDirectory {
     }
 
     isPublicBusiness(business) {
-        return business.publicationStatus !== 'hidden' && this.hasValidEmail(business);
+        return business.publicationStatus !== 'hidden';
+    }
+
+    inferCountry(business) {
+        const state = String(business.state || business.county || '');
+        const canada = new Set(['Alberta', 'British Columbia', 'Manitoba', 'New Brunswick', 'Newfoundland and Labrador', 'Northwest Territories', 'Nova Scotia', 'Nunavut', 'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan', 'Yukon']);
+        const australia = new Set(['Australian Capital Territory', 'New South Wales', 'Northern Territory', 'Queensland', 'South Australia', 'Tasmania', 'Victoria', 'Western Australia']);
+        if (canada.has(state)) return 'Canada';
+        if (australia.has(state)) return 'Australia';
+        return 'USA';
     }
 
     formatStatus(status) {
